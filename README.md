@@ -4,6 +4,28 @@ A collection of **mega-prompts** to turn a photo of your product into a professi
 
 Each prompt is a long, detailed, copy-and-paste block. You attach your product photo as a reference image, paste the prompt, replace everything in `[BRACKETS]` with your own preferences, and generate.
 
+## Example result
+
+![Example poster generated with the Minimalist Product prompt](example_result.png)
+
+**Prompt used:** [`templates/minimalist-product.md`](templates/minimalist-product.md) (Mega-Prompt: Minimalist Product Poster).
+
+**Brief used (all `[BRACKETS]` replaced with real preferences):**
+
+| Field | Value |
+|---|---|
+| Brand | Alba Coffee Roasters |
+| Product | Matte kraft-paper coffee bag, 250 g, cream label |
+| Goal | Sell / announce the new single-origin harvest |
+| Headline | "Wake up properly" |
+| Subheadline | "Single-origin Ethiopia. Roasted this week." |
+| Call to action | "Order today" |
+| Colors | Warm cream, soft sage green, accent terracotta |
+| Format | 3:4 vertical |
+| Reference photo | Photo of the coffee bag, attached as a reference image |
+
+> The brand and texts in this example are fictional and were only used to test the prompt.
+
 ## How it works (3 steps)
 
 1. **Choose the prompt** that matches your ad from [`templates/`](templates/), or use the generic [`PROMPT_MASTER.md`](PROMPT_MASTER.md) if none fits.
@@ -17,6 +39,7 @@ Each prompt is a long, detailed, copy-and-paste block. You attach your product p
 ```
 .
 ├── PROMPT_MASTER.md        # Generic mega-prompt (works for any product)
+├── example_result.png      # Example poster made with templates/minimalist-product.md
 ├── templates/              # Ready-to-paste mega-prompts by ad type
 │   ├── minimalist-product.md
 │   ├── sale-discount.md
