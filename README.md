@@ -1,4 +1,4 @@
-# ad-poster-master-prompt
+# The Ultimate Ad (Poster) Prompts
 
 A collection of **mega-prompts** to turn a photo of your product into a professional advertising poster using AI image generators: **Google Flow, ChatGPT (image generation), Gemini, Midjourney, Leonardo, Ideogram, Firefly, Copilot Designer**, and any other image-capable AI.
 
