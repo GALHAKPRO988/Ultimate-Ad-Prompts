@@ -1,6 +1,6 @@
-# Generic Mega-Prompt (works for any product)
+# Mega-Prompt: Sale / Discount Poster
 
-**When to use:** none of the ready-made templates in [`templates/`](templates/) fits your ad, or you want full control over every visual decision.
+**When to use:** Seasonal sales, flash offers, Black Friday, clearance and limited-time promotions.
 
 **How to use it:** attach your product photo as a reference image in your AI generator (Google Flow, ChatGPT, Gemini, Midjourney, Leonardo, Ideogram, Firefly...), copy the whole block below, replace every `[BRACKET]` with your own preferences, and generate.
 
@@ -10,7 +10,7 @@
 You are a world-class advertising art director, commercial photographer and graphic designer. Create ONE finished, professional advertising poster using the attached reference photo of my product as the hero of the design.
 
 === 1. REFERENCE PHOTO RULES (MOST IMPORTANT) ===
-- The attached photo shows my real product: [PRODUCT OR SERVICE, e.g. describe your product here]. Treat it as the single source of truth for how the product looks.
+- The attached photo shows my real product: [PRODUCT OR SERVICE, e.g. pair of running shoes]. Treat it as the single source of truth for how the product looks.
 - Keep the product 100% faithful to the photo: exact shape, proportions, colors, materials, textures, labels, packaging, logo and every printed detail.
 - Do NOT redesign, distort, stretch, simplify, recolor or "improve" the product itself. Do NOT add parts, buttons, ports, flavors, variants or accessories that are not in the photo.
 - Do NOT invent, replace or add any brand names, logos, certifications, awards or watermarks other than the ones that already appear on the product or in my brief.
@@ -20,10 +20,10 @@ You are a world-class advertising art director, commercial photographer and grap
 
 === 2. POSTER BRIEF ===
 - Brand / business name: [BRAND NAME]
-- Product or service: [PRODUCT OR SERVICE, e.g. describe your product here]
+- Product or service: [PRODUCT OR SERVICE, e.g. pair of running shoes]
 - Main goal of the poster: [GOAL: sell / announce an offer / promote an event / attract customers / launch a product]
 - Target audience: [AUDIENCE: age range, interests, city or country]
-- Brand tone of voice: [TONE: e.g. premium / playful / urgent / friendly / elegant]
+- Brand tone of voice: [TONE: e.g. urgent, energetic, exciting, friendly]
 - Main colors: [COLOR 1], [COLOR 2], accent [COLOR 3] (or write "extract the palette from my photo")
 - Language of ALL text on the poster: [LANGUAGE]
 - Aspect ratio / format: [ASPECT RATIO: 3:4 vertical / 1:1 square / 9:16 story / 16:9 landscape / A3 print]
@@ -38,44 +38,44 @@ You are a world-class advertising art director, commercial photographer and grap
 Do not add any other words, slogans, fake prices, fake dates, lorem ipsum or gibberish text anywhere in the image. If a text field above is left empty, do not render it and do not invent a replacement.
 
 === 4. STYLE & CONCEPT ===
-[STYLE: describe the visual style you want, e.g. minimalist premium, bold retail promotion, cinematic event, editorial fashion, futuristic tech, warm food photography, friendly local business, or reference a campaign look]. Describe the concept in two or three sentences: [CONCEPT: what should the viewer feel and understand in one second?].
+High-impact retail promotion poster designed to stop the scroll in under one second: loud, energetic and bold, but still tidy and professional. Think global sneaker and electronics sale campaigns with a huge discount figure as the star of the design.
 
 === 5. BACKGROUND & SCENE ===
-[BACKGROUND: describe the setting or backdrop, e.g. seamless studio backdrop in warm beige, dark gradient with soft light trails, rustic wooden table, sunlit apartment, solid brand-color wall with geometric shapes]. Keep it supportive and never competing with the product.
+A saturated solid or gradient background in [MAIN COLOR, e.g. hot red, electric yellow, cobalt blue, jet black with neon accents], with dynamic supporting shapes: diagonal color blocks, starburst rays, halftone dots, confetti or speed lines in [SECOND COLOR].
 
 === 6. PROPS & SUPPORTING ELEMENTS ===
-[PROPS: list 0-3 supporting elements related to the product, e.g. ingredients, plants, confetti, tools, fabric], placed intentionally around the product without covering it, or write 'no props'.
+Floating dynamic elements such as sparkles, ribbons, price tags or [THEME ELEMENTS, e.g. summer leaves, snowflakes, gift boxes, coins], kept behind and around the product and never covering it. Add depth with some elements slightly blurred in the foreground.
 
 === 7. LIGHTING ===
-[LIGHTING: e.g. soft diffused studio light, golden hour sun, dramatic rim light with colored gels, warm window light, bright even daylight], with realistic shadows, highlights and reflections consistent with the scene.
+Punchy commercial lighting with a strong rim light and a colored backlight in [GLOW COLOR], crisp contact shadow, a slight glow around the product to separate it from the background, high energy and high contrast.
 
 === 8. CAMERA & PERSPECTIVE ===
-[CAMERA: e.g. eye-level hero shot, 3/4 angle from slightly above, top-down flat lay, low dramatic angle], [LENS LOOK: e.g. 50 mm / 85 mm macro / wide 24 mm], product perfectly sharp with [DEPTH OF FIELD: shallow / deep].
+Hero angle: product tilted 10-15 degrees or shot slightly from below to feel powerful and dynamic, a subtle wide-angle perspective, sharp focus on the product.
 
 === 9. COLOR PALETTE ===
-[PALETTE: describe the colors and how they are used, e.g. base soft sage, neutral cream, accent terracotta for the call to action]. Use my brand colors from the brief.
+Two or three high-contrast colors at most: [MAIN COLOR], [SECOND COLOR] and white or black for text; the discount number in the accent color with maximum contrast.
 Keep colors consistent with my brand colors from the brief. Make sure the product stays the most visually attractive and colorful element, with strong separation from the background.
 
 === 10. TYPOGRAPHY ===
-[TYPOGRAPHY: describe the fonts you want, e.g. elegant serif headline with small uppercase sans-serif details, or heavy condensed sans-serif for impact, or friendly rounded sans-serif]. Define the weight, case and alignment you prefer: [WEIGHT / CASE / ALIGNMENT].
+Heavy condensed or extra-bold sans-serif in uppercase for the discount figure and the headline, tight leading, the discount number extremely large (it must be the largest element in the poster), optional italic or skewed text to suggest speed. Secondary text in a clean bold sans-serif.
 Use at most two typefaces. Text must be crisp, perfectly legible, correctly spelled, and free of warping, doubled letters or random symbols. Maintain high contrast between text and its background (place text on calm, uncluttered or darkened/lightened areas). Keep clear space around text.
 
 === 11. COMPOSITION & LAYOUT ===
-[LAYOUT: describe where each element goes, e.g. product centered at 55% of the height, headline on top, offer badge to the right of the product, call to action button at the bottom, contact in a footer band, logo top-left].
+Giant discount figure ([DISCOUNT, e.g. -30%]) dominates one half of the poster; the product overlaps or sits beside it with depth; an urgency badge ([URGENCY, e.g. Until Sunday only]) in a circle or ribbon; the call to action in a high-contrast pill-shaped button; contact details in a bottom bar.
 General composition rules: strong single focal point on the product (it should occupy roughly 40-60% of the poster unless the style says otherwise); clear visual hierarchy (headline > offer > call to action > contact details); balanced use of negative space; respect safe margins of about 6% from every edge; align elements to a clean grid; guide the eye in a natural path from the product to the headline to the call to action.
 
 === 12. MOOD & ATMOSPHERE ===
-[MOOD: three to five adjectives, e.g. calm, premium, joyful, urgent, cozy, futuristic].
+Urgent, exciting, festive, 'do not miss it', full of energy and positive vibes.
 
 === 13. EXTRA DETAILS ===
-Add any special graphic element you want: [SPECIAL ELEMENTS, e.g. discount burst, ribbon, rounded badge, thin divider line, QR code area, or write 'none'].
+Add a burst or sticker-style badge for the end date. Add a tiny line of conditions only if I provide it here: [CONDITIONS, or delete this line].
 Optional extra details from me: [ANY EXTRA REQUEST, e.g. add a small logo in the top-left corner, leave the bottom 20% empty for adding my own text, include a QR code area].
 
 === 14. TECHNICAL SPECIFICATIONS ===
 Final output: one single image, [ASPECT RATIO], ultra high resolution, razor-sharp detail on the product, clean edges without halos or cut-out artifacts, professional color grading, realistic materials, print-ready quality, no borders, no frames, no watermarks, no UI elements, no mockup of a phone or a wall (just the flat poster artwork itself).
 
 === 15. NEGATIVE INSTRUCTIONS (AVOID ALL OF THIS) ===
-Avoid: a modified or redesigned product, wrong or invented logos, misspelled or garbled text, extra text I did not request, blurry or low-resolution output, distorted hands or faces, extra fingers, duplicated products, cluttered composition, low contrast text, over-saturated or muddy colors, harsh artificial shadows, cheap stock-photo look, visible AI artifacts, watermarks, signatures, cropped-off product, [ANYTHING ELSE YOU WANT TO AVOID, e.g. neon colors, people, busy backgrounds, shadows on text].
+Avoid: a modified or redesigned product, wrong or invented logos, misspelled or garbled text, extra text I did not request, blurry or low-resolution output, distorted hands or faces, extra fingers, duplicated products, cluttered composition, low contrast text, over-saturated or muddy colors, harsh artificial shadows, cheap stock-photo look, visible AI artifacts, watermarks, signatures, cropped-off product, pastel muted palettes, thin elegant fonts, low contrast text, tiny discount number, cluttered tiny print, more than one call to action, fake brand logos, invented discount percentages.
 
 === 16. DELIVERY ===
 Generate the final poster now. If any bracketed field above was left unclear, make the most reasonable professional assumption and mention it in one short line after the image. Then offer two alternative variations: one with a different layout and one with a different color palette, keeping the product and the text identical.
@@ -102,16 +102,6 @@ MORE PREMIUM: Make the poster look more premium and expensive: refine the lighti
 
 MORE IMPACT: Make the poster more eye-catching: bolder contrast, larger headline, more dynamic angle for the product, stronger lighting, while keeping the text correct and the product faithful.
 ```
-
-## Field cheat sheet
-
-| Field | Good example | Avoid |
-|---|---|---|
-| Headline | "Wake up properly" | Sentences or slogans over 6 words |
-| Offer | "2x1 every Friday" | Vague claims like "great prices" |
-| Call to action | "Order today" | Several CTAs competing |
-| Contact | "@mybrand · mybrand.com" | More than 2 contact methods |
-| Tone | "Premium, calm" | Contradictions like "serious but crazy" |
 
 ---
 

@@ -1,21 +1,23 @@
 # ad-poster-master-prompt
 
-A **master prompt** plus **style templates** to turn a photo of your product into a professional advertising poster using any image-capable AI (Claude, ChatGPT, Gemini, etc.).
+A collection of **mega-prompts** to turn a photo of your product into a professional advertising poster using AI image generators: **Google Flow, ChatGPT (image generation), Gemini, Midjourney, Leonardo, Ideogram, Firefly, Copilot Designer**, and any other image-capable AI.
 
-You attach a photo, paste the master prompt, drop in one style template, fill in the brief, and get a ready-to-use poster.
+Each prompt is a long, detailed, copy-and-paste block. You attach your product photo as a reference image, paste the prompt, replace everything in `[BRACKETS]` with your own preferences, and generate.
 
 ## How it works (3 steps)
 
-1. **Pick a style template** from [`templates/`](templates/) that matches your ad.
-2. **Copy [`PROMPT_MASTER.md`](PROMPT_MASTER.md)**, fill in the `{{PLACEHOLDERS}}` and paste the template's *Style block* where indicated.
-3. **Send it to the AI together with your product photo.** Ask for tweaks or variants if needed.
+1. **Choose the prompt** that matches your ad from [`templates/`](templates/), or use the generic [`PROMPT_MASTER.md`](PROMPT_MASTER.md) if none fits.
+2. **Copy the whole code block**, paste it into your AI and **replace every `[BRACKET]`** with your own details (brand, headline, offer, colors, contact, format...).
+3. **Attach your product photo as a reference image** and generate. Then iterate with the follow-up prompts at the end of each file.
+
+> **Important:** every `[BRACKET]` in any prompt of this repo is a placeholder. Always replace it with your own preferences before sending the prompt. If a bracket does not apply to you, delete that line.
 
 ## Repo structure
 
 ```
 .
-├── PROMPT_MASTER.md        # The master prompt (never changes)
-├── templates/              # Swappable style blocks
+├── PROMPT_MASTER.md        # Generic mega-prompt (works for any product)
+├── templates/              # Ready-to-paste mega-prompts by ad type
 │   ├── minimalist-product.md
 │   ├── sale-discount.md
 │   ├── event.md
@@ -30,24 +32,29 @@ You attach a photo, paste the master prompt, drop in one style template, fill in
 └── LICENSE
 ```
 
-## Why a master prompt + templates?
+## What every prompt includes
 
-The master prompt holds everything that stays constant: how to treat your photo, the brief fields, layout rules, text rules and output format. The templates only define the **visual style**. This way you can reuse the same prompt for any product and just swap the style.
+16 detailed sections: reference-photo rules, brief, exact text to render, style and concept, background, props, lighting, camera, color palette, typography, composition and layout, mood, extra details, technical specs, negative instructions and delivery. Each file also ships with follow-up prompts to fix text, protect the product, change format, change palette and more.
 
-## Quick example
+## Where to use them
 
-> *Attach: photo of a coffee bag.*
-> Master prompt with `{{PRODUCT}} = Single-origin coffee, 250 g`, `{{HEADLINE}} = Wake up properly`, `{{CTA}} = Order today`, and the **Minimalist product** style block pasted in.
+| Tool | How to attach the photo |
+|---|---|
+| Google Flow | Add the photo as an ingredient / reference image, then paste the prompt |
+| ChatGPT | Upload the photo in the chat, paste the prompt, ask it to generate the image |
+| Gemini | Upload the photo, paste the prompt |
+| Midjourney | Upload the photo, use its URL as an image reference and paste the prompt after it |
+| Leonardo / Ideogram / Firefly | Use the image-guidance or reference feature and paste the prompt |
 
 ## Tips
 
-- Most image models still struggle with long text. Keep the headline under 6 words and check spelling in the result.
-- If the AI alters your product, re-send the photo and add: *"Do not modify the product. Only change the background and lighting."*
-- Read [`guides/common-mistakes.md`](guides/common-mistakes.md) before your first run.
+- Image models can still misspell text. Keep headlines short and use the **FIX THE TEXT** follow-up if needed.
+- If the AI alters your product, use the **PROTECT THE PRODUCT** follow-up.
+- Some tools limit prompt length. See [`guides/common-mistakes.md`](guides/common-mistakes.md) for how to shorten it.
 
 ## Contributing
 
-New templates are welcome. Copy any file in `templates/`, keep the same sections (When to use / Style block / Example brief) and open a pull request.
+New prompts are welcome. Copy any file in `templates/`, keep the same sections and open a pull request.
 
 ## License
 
